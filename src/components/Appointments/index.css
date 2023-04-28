@@ -1,0 +1,50 @@
+.main-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-radius: 12px;
+  padding-right: 30px;
+}
+.horizontal-setup {
+  display: flex;
+}
+.image {
+  width: 300px;
+  height: 200px;
+}
+.button {
+  background-color: #8b5cf6;
+  border-radius: 5px;
+  outline: none;
+  border: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  width: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+.star-button {
+  height: 30px;
+  border-color: #9796f0;
+  color: #9796f0;
+  background-color: #ffffff;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.my-form {
+  display: flex;
+  flex-direction: column;
+}
